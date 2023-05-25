@@ -102,7 +102,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 class NetworkTask : AsyncTask<Unit, Unit, Bitmap?>() {
     override fun doInBackground(vararg params: Unit?): Bitmap? {
         val openaiUrl = "https://api.openai.com/v1/images/generations"
-        val openaiApiKey = "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"
+        val openaiApiKey = "get your own key XD"
         val prompt = "A cute anime baby"
         val headers = mapOf(
             "Content-Type" to "application/json",
